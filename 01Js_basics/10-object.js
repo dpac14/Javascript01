@@ -10,7 +10,7 @@ const JsUser = {
     email: "dpakchute11@gmail.com",
     isLoggedIn: "false",
 }
-// console.log(JsUser.email);
+console.log(JsUser.email);
 // console.log(JsUser["isLoggedIn"]);
 // console.log(JsUser["location"]);
 
@@ -22,8 +22,10 @@ const JsUser = {
 //  JsUser.email ="dipak@chatgpt"
 
  JsUser.greeting= function(){
-    console.log("Hellow JS User");
- }
+    console.log("Hellow Javascript User");
+ } 
+
+
 
 
 JsUser.greetingTwo= function(){
