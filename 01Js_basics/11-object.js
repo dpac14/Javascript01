@@ -30,16 +30,18 @@ const obj4 = { 5: "e", 6: "f" }
 const obj3 = { ...obj1, ...obj2, ...obj4 }
 // console.log(obj3);
 
-const users= [
+const users = [
     {
         id: 1,
-        email:"d@gmail.com"
-    },{
+        email: "d@gmail.com"
+    },
+    {
         id: 1,
-        email:"d@gmail.com"
-    },{
+        email: "d@gmail.com"
+    },
+    {
         id: 1,
-        email:"d@gmail.com"
+        email: "d@gmail.com"
     },
 ]
 
@@ -50,14 +52,14 @@ const users= [
 // console.log(instagramUser.hasOwnProperty('isLoggedIn'));
 
 
-const course={
-coursename:"Js In Hindi",
-price:"999",
-courseInstructor:"Virat"
+const course = {
+    coursename: "Js In Hindi",
+    price: "999",
+    courseInstructor: "Virat"
 }
 //  course.courseInstructor
 
-const {courseInstructor : instructor}= course
+const { courseInstructor: instructor } = course
 
 // console.log(courseInstructor);
 console.log(instructor);
