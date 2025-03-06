@@ -1,3 +1,4 @@
+
 // const instagramUser = new Object() this is singelton object     
 //  const instagramUser = {} non singelton object
 
