@@ -1,6 +1,5 @@
 
 
-
 // Objects literals
 
 const mySym = Symbol("key1")
