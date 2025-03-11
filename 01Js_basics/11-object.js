@@ -61,14 +61,14 @@ users[1].email
 
 const course = {
     coursename: "Js In Hindi",
-    price: "199",
+    price: "299",
 
     courseInstructor: "Code with Hitesh"
 }
 //  course.courseInstructor
 
-const { courseInstructor: instructor } = course
+const { courseInstructor: Instructor } = course
 
 // console.log(courseInstructor);
-console.log(instructor);
+console.log(Instructor);
 
