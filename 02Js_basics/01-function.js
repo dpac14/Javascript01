@@ -4,18 +4,18 @@ function sayMyName() {
   console.log("I");
   console.log("P");
   console.log("A");
-  console.log("K");
+  console.log("C");
 
 }
 // sayMyName()
 
 
-function addTwoNumbers(number1, number2){
+function addTwoNumbers(number1, number2) {
 
   console.log(number1 + number2);
 
 }
-addTwoNumbers(3, "4") 
+addTwoNumbers(5, "6")
 
 
 
@@ -32,15 +32,18 @@ const result = addTwoNumbers(3, 4)
 
 // console.log("Result: ", result);
 
-function loginUserMessage(username = "Uesre Not ") {
+
+
+
+function loginUserMessage(username = "Uesre Not") {
   if (!username) {
     console.log("please enter a username");
     return
   }
-  return `${username} just logged in `
+  return `${username} Just Logged In `
 }
-// console.log(loginUserMessage("dipak"));
-// console.log(loginUserMessage());
+// console.log(loginUserMessage("Dipak"));
+console.log(loginUserMessage());
 
 
 function calculateCartPrice(val1, val2, ...num1) {
@@ -53,7 +56,7 @@ const uesr = {
   price: 199
 }
 function handleObject(anyObject) {
-  console.log(`Usernmae is ${anyObject.username} and Price is ${anyObject.price}`)
+  // console.log(`Usernmae is ${anyObject.username} and Price is ${anyObject.price}`)
 
 }
 
