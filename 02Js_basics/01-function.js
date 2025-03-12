@@ -62,7 +62,7 @@ function handleObject(anyObject) {
 
 // handleObject(uesr)
 handleObject({
-  username: "sam ",
+  username: "Sam ",
   price: 399
 })
 
