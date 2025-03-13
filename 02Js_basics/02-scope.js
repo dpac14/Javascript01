@@ -1,16 +1,18 @@
+
+
 //  var c = 300
 let a = 300
 if (true) {
     let a = 10
     const b = 20
     var c = 30
-     console.log("Inner: ", a);
+    console.log("INNER: ", a);
 
 }
 
  console.log(a);
 //  console.log(b);
-//  console.log(c);
+// console.log(c);
 
 
 function one() {
@@ -34,22 +36,22 @@ if (true) {
     if (username === "dpac") {
         const website = " youtube"
         // console.log(username + website); 
-        
+
     }
     // console.log(website);
-    
+
 }
 // console.log(username);
 
 
-console.log(addone(5));
+// console.log(addone(5));
 
 
 function addone(num) {
-return num + 1
+    return num + 1
 }
 
 addTwo(5)
 function addTwo(num) {
-return num + 2
+    return num + 2
 }
