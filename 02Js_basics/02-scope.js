@@ -20,20 +20,21 @@ function one() {
 
     function two() {
         const website = "youtube"
-        console.log(username);
+        // console.log(username);
+
     }
     // console.log(website);
 
     two()
 }
 
-one()
+// one()
 
 if (true) {
     const username = "Dpac"
     if (username === "Dpac") {
         const website = " youtube"
-        // console.log(username + website); 
+        console.log(username + website);
 
     }
     // console.log(website);
@@ -41,14 +42,13 @@ if (true) {
 }
 // console.log(username);
 
-// +++++++++++ Intresting Quetion ++++++++++++++
-console.log(addone(5));
+// +++++++++++ Intresting Questions ++++++++++++++
 
+
+// console.log(addone(5));
 function addone(num) {
     return num + 1
 }
-
-
 
 const addTwo = function addTwo(num) {
     return num + 2
