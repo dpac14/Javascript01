@@ -30,8 +30,8 @@ function one() {
 one()
 
 if (true) {
-    const username = "dpac"
-    if (username === "dpac") {
+    const username = "Dpac"
+    if (username === "Dpac") {
         const website = " youtube"
         // console.log(username + website); 
 
