@@ -1,14 +1,14 @@
 // Immediately Invoke Function Expressions (IIFE)
 
 
-// Named iffe
+// Named IIFE
 (function chai(){
-    console.log(`Wellcome To DB`);
+    console.log(`Wellcome To DataBase`);
     
 }
 )();
 
-( (name) =>{
-    console.log(`Wellcome To DB ${name} `);
+// ( (name) =>{
+//     console.log(`Wellcome To DataBase ${name} `);
     
-})(`Darshan!`)
+// })(`Darshan!`)
