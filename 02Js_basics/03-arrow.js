@@ -17,11 +17,11 @@ user.welcomeMassage()
 // console.log(this);
 
 
-function chai (){
-        let usernmae = "Dipak"
-        console.log(this.usernmae);
-    }
-    // chai();
+function chai() {
+    let usernmae = "Dipak"
+    console.log(this.usernmae);
+}
+// chai();
 
 
 // const chai = function(){
@@ -29,7 +29,7 @@ function chai (){
 //     console.log(this.usernmae);
 
 // }
- 
+
 // const chai = () => {
 //     let usernmae = "dipak"
 //     console.log(this.usernmae);
