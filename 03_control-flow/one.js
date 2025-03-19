@@ -1,25 +1,32 @@
 // if 
 
 const isUserloggedin = true
-const temperature = 42 
+const temperature = 42
 // if ( temperature === 40) {
 //     console.log("less than 50");
-    
+
 //     } else{ 
 //         console.log("temperature is greater than 50");
 
 //     }
 
+// const score = 200
+// if (score > 100) {
+//     let power = "fly"
+//     console.log(`User power : ${power}`);
 
+// }
+//   console.log(`User power : ${power}`);
 
-      const score = 200
-      if(score > 100) {
-        let power ="fly"
-        console.log(`User power : ${power}`);
-      
-        
-      }
-        //   console.log(`User power : ${power}`);
-        
+const blance = 1000
+ if (blance < 500) {
+    console.log("less than 500");
     
+ }else if (blance < 750 ) {
+    console.log("less than 750");
+    
+ } else {
+    console.log("less than 1200");
+    
+ }
 
