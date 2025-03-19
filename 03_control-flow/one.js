@@ -18,15 +18,31 @@ const temperature = 42
 // }
 //   console.log(`User power : ${power}`);
 
-const blance = 1000
- if (blance < 500) {
-    console.log("less than 500");
-    
- }else if (blance < 750 ) {
-    console.log("less than 750");
-    
- } else {
-    console.log("less than 1200");
-    
- }
+// const blance = 1000
+//  if (blance < 500) {
+//     console.log("less than 500");
+
+//  }else if (blance < 750 ) {
+//     console.log("less than 750");
+
+//  } else {
+//     console.log("less than 1200");
+
+//  }
+const userLoggedIn = true
+const userDebicar = true
+const loggedFromGoggle = false
+const loggedfromEmail = true
+
+if (userLoggedIn && userDebicar && 2 == 3) {
+    console.log("Allow to buy course");
+
+}
+if (loggedFromGoggle || loggedfromEmail) {
+    console.log("User logged In");
+
+
+}
+
+
 
