@@ -27,18 +27,19 @@ const temperature = 42
 
 //  } else {
 //     console.log("less than 1200");
-
 //  }
+
+
 const userLoggedIn = true
-const userDebicar = true
-const loggedFromGoggle = false
+const userDebitcard = true
+const loggedFromGoogle = false
 const loggedfromEmail = true
 
-if (userLoggedIn && userDebicar && 2 == 3) {
+if (userLoggedIn && userDebitcard ) {
     console.log("Allow to buy course");
 
 }
-if (loggedFromGoggle || loggedfromEmail) {
+if (loggedFromGoogle || loggedfromEmail) {
     console.log("User logged In");
 
 
