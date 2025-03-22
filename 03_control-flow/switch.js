@@ -8,7 +8,7 @@
 // }
 
 const month = 3
-switch (month) {
+switch (month) { 
     case 1:
         console.log("Jan");
         break;

@@ -37,13 +37,12 @@ const userDebitcard = true
 const loggedFromGoogle = false
 const loggedfromEmail = true
 
-if (userLoggedIn && userDebitcard ) {
+if (userLoggedIn && userDebitcard) {
     console.log("Allow to buy course");
 
 }
 if (loggedFromGoogle || loggedfromEmail) {
     console.log("User logged In");
-
 
 }
 
