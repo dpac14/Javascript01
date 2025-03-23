@@ -19,7 +19,7 @@ for (let i = 1; i <= 10; i++) {
     }
 }
 
-let myArray = [ "flash", "batman", "superman"]
+let myArray = [ "Flash", "Batman", "Superman"]
 // console.log(myArray.length);
 
  for (let index = 0; index < myArray.length; index++) {
