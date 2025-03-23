@@ -8,7 +8,13 @@ let index = 0
 let myArray = ['Flash', 'Batman', 'Superman']
 let arr = 0
 while (arr < myArray.length) {
-    console.log(`Value is ${myArray[arr]}`);
+    // console.log(`Value is ${myArray[arr]}`);
     arr = arr + 1
-    
 }
+
+
+let score = 21
+do {
+    console.log(`Score is ${score}`);
+    score++
+} while (score <= 20);
