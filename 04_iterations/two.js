@@ -5,7 +5,7 @@ let index = 0
 //     index = index + 2
 // }
 
-let myArray = ['Flash', 'Batman', 'Superman']
+let myArray = ['flash', 'batman', 'Superman']
 let arr = 0
 while (arr < myArray.length) {
     // console.log(`Value is ${myArray[arr]}`);
