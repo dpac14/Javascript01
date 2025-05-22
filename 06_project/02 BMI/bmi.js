@@ -17,18 +17,18 @@ form.addEventListener('submit', function (e) {
         const bmi = (weight / ((height * weight) / 10000)).toFixed(1)
         //show the result
         if (bmi < 18.6) {
-            results.innerHTML =`<spam>${bmi}</spam><spam>Under Weight = Less than 18.6</spam>`
-            
+            results.innerHTML = `<spam>${bmi}</spam><spam>Under Weight = Less than 18.6</spam>`
+
         }
-        else if (bmi < 18.5 && bmi < 25 ) {
-            results.innerHTML =`<spam>${bmi}</spam><spam>Range = 18.6 and 24.9</spam>`
-            
+        else if (bmi < 18.5 && bmi < 25) {
+            results.innerHTML = `<spam>${bmi}</spam><spam>Range = 18.6 and 24.9</spam>`
+
         }
-        else if (bmi > 24.9 ) {
-            results.innerHTML =`<spam>${bmi}</spam><spam>Greater than 24.9</spam>`
-            
+        else if (bmi > 24.9) {
+            results.innerHTML = `<spam>${bmi}</spam><spam>Greater than 24.9</spam>`
+
         }
-        
+
     }
 
 })
