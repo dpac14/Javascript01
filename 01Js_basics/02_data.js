@@ -5,11 +5,11 @@ let name = "dpak"
 let age = "19"
 let isLoggeIn = false
 // Number=> 2 to power 53
-// Null=>standalone value
-// String=>""
-// Symbol
+// Null=> Standalone value
+// String=> ""
+// Symbol=> Unique
 // Boolean=> true/fales
 // Bigint
-// undefined=>
-//  Object
+// Undefined=>
+// Object
 // Typeof
