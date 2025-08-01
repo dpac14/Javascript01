@@ -1,7 +1,7 @@
 const accountId = 1235
 let accountEmail = "dpac122@gmail.com"
 var accountPassword = "12345"
-accountCity = "nagpur"
+ accountCity = "pune"
 let accountStates;
 
 
