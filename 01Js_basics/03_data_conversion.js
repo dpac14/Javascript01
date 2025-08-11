@@ -1,6 +1,6 @@
 let score = "dipak"
- // console.log(typeof score);
-  //console.log(typeof(score));    
+//  console.log(typeof score);
+//   console.log(typeof(score));    
 
   let valueInNumber = Number (score)
   //console.log(typeof(valueInNumber));
@@ -15,7 +15,7 @@ let score = "dipak"
 
   let isLoggeIn ="dipak"
   let booleanIsLoggedIn = Boolean(isLoggeIn)
-  //console.log(booleanIsLoggedIn);
+  console.log(booleanIsLoggedIn);
    // 1=> true; 0=> false
    // ""=> false
    // "dipak" => true
@@ -37,19 +37,19 @@ let score = "dipak"
   let str1 = "hello"
   let str2 = " dipak"
    let str3 = str1 + str2
-   console.log(str3);
+  //  console.log(str3);
 
 
 
-    console.log("1" + 2);
-    console.log(1 + "2");
-    console.log("1" + 2 + 2);
+    // console.log("1" + 2);
+    // console.log(1 + "2");
+    // console.log("1" + 2 + 2);
 
-    console.log(1 + 2+ "2");
+    // console.log(1 + 2 + "2");
 
 
 
-     console.log(true);
+    //  console.log(true);
 
 
      let gameCounter = 100
