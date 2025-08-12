@@ -26,10 +26,10 @@ console.log(anotherSring);
 // console.log(newStringOne.trim());
 
 
-// const url ="https//:dipak.com/dipak20%chute"
-// console.log(url.replace('20%', '-'));
+const url ="https://dipak.com/dipak20%chute"
+console.log(url.replace('20%', '-'));
 
 // console.log(url.includes("ritesh"));
 // console.log(url.includes("chute"));
 
-console.log(gameName.small());
+console.log(gameName.bold());
